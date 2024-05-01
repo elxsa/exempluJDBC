@@ -36,28 +36,28 @@ EN: We will go through the following steps:
 
 2. Retrieving data from the database (MySQL Workbench):
 
-   - Establishing a connection to the database;
+- Establishing a connection to the database;
      
-   - Executing SQL queries;
+- Executing SQL queries;
      
-   - Processing the results;
+- Processing the results;
      
-   - Closing a database connection.
+- Closing a database connection.
 
 7. Running SQL commands with parameters:
 
-   - Data is extracted from the "persons" table, filtering only those individuals who have a specified name and an age less than a specified value; the example runs a select query with parameters.
+- Data is extracted from the "persons" table, filtering only those individuals who have a specified name and an age less than a specified value; the example runs a select query with parameters.
 
 8. Updating the database using SQL commands:
 
-   - To add, modify, and delete data in/from the "persons" table, the example runs SQL commands with parameters using the PreparedStatement object;
+- To add, modify, and delete data in/from the "persons" table, the example runs SQL commands with parameters using the PreparedStatement object;
      
-   - The interfaces Statement, PreparedStatement, Connection, ResultSet implement the AutoCloseable interface, allowing them to be used in try-with-resources blocks so that the resource is automatically closed;
+- The interfaces Statement, PreparedStatement, Connection, ResultSet implement the AutoCloseable interface, allowing them to be used in try-with-resources blocks so that the resource is automatically closed;
      
-   - In the catch blocks, in addition to the exception message, the SQL command that caused it is displayed;
+- In the catch blocks, in addition to the exception message, the SQL command that caused it is displayed;
      
-   - The executeUpdate() method is used to run SQL commands such as insert, update, and delete;
+- The executeUpdate() method is used to run SQL commands such as insert, update, and delete;
      
-   - The actual values of the parameters were set using the methods setInt(parameter_number, value) or setString(parameter_number, value);
+- The actual values of the parameters were set using the methods setInt(parameter_number, value) or setString(parameter_number, value);
      
-   - Accessing columns from the ResultSet this time was done by specifying the column index, not its name.
+- Accessing columns from the ResultSet this time was done by specifying the column index, not its name.
