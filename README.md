@@ -61,3 +61,4 @@ EN: We will go through the following steps:
 - The actual values of the parameters were set using the methods setInt(parameter_number, value) or setString(parameter_number, value);
      
 - Accessing columns from the ResultSet this time was done by specifying the column index, not its name.
+
